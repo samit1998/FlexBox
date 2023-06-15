@@ -1,0 +1,99 @@
+.nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    /* background-color: red; */
+}
+.center{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 1500px;
+}
+.outer{
+    height: 700px;
+    width: 700px;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Daco_5257866.png);
+    background-size: cover;
+}
+.inner{
+    height: 300px;
+    width: 300px;
+    background-color:violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Daco_5257866.png);
+    background-size: cover;
+}
+.inner1{
+    height: 200px;
+    width: 200px;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Daco_5257866.png);
+    background-size: cover;
+}
+.inner2{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(21, 231, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Daco_5257866.png);
+    background-size: cover;
+}
+.inner3{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(17, 159, 220);
+    background-image: url(Daco_5257866.png);
+    background-size: cover;
+}
+.inner3:hover {
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+}
+.inner2:hover {
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+}
+.inner1:hover {
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+}
+.inner:hover {
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+}
+.outer:hover {
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width:320px) and (max-width:1020px){
+    body{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width:100% !important;
+        height: 112px !important;
+        padding-bottom: 124px;
+    }
+}
